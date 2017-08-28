@@ -59,7 +59,7 @@ namespace InventoryManagementSystem.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "DateOfReport,IngredientCost,Income,Profit")] WeeklyReport weeklyReport)
+        public ActionResult Edit([Bind(Include = "Date,IngredientCost,Income,Profit")] WeeklyReport weeklyReport)
         {
             if (ModelState.IsValid)
             {
