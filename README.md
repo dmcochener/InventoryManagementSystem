@@ -1,1 +1,2 @@
 # InventoryManagementSystem
+This Inventory Management System was a group project developed to help a food cart manage it's ingredients used. The model is based on a simple sandwich shop. I worked on the initial two week sprint. Through the project we had several issues with merging code. The code posted here is not the final version, but it include all of my work, and very little other work. The main item in this code I did not develop is the search functionality. The rest was developed by me. 
